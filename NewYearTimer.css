@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+#newyear{
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num{
+  width: 100px;
+  text-align: center;
+  background-color: aqua;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+
+.text{
+  background-color: lightgrey;
+  width: 100px;
+  text-align: center;
+  padding: 1rem 0;
+  
+}

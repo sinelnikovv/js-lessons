@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+<h1>Угадай число от 0 до 10</h1>
+<button onclick="startGame()">Начать игру</button>
+
+<input id="nam" type="number" placeholder="Введи число">
+<button id="submitbtn" onclick="submitNumber()">Угадать</button>
+<div class="counter">
+  Осталось попыток: <span id="count"></span>
+</div>
+<div id="tip">
+  Результат: <span id="result"></span>  
+
+<script src="guess_a_number.js"></script>
+</body>
+</html>
+
